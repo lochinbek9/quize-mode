@@ -1,0 +1,48 @@
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 640px;
+    margin-left: 50%;
+    margin-top: 60px;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.container h2{
+    font-size: 24px;
+}
+
+.container li{
+    margin: 10px 0;
+    padding: 20px 0; 
+    font-size: 16px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 300ms;
+}
+
+.container .correct{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.container .wrong{
+    background-color: #f44336;
+    color: white;
+}
